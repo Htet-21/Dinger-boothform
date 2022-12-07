@@ -1,0 +1,37 @@
+.theme-modal{
+    position:fixed;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    background-color:rgba(0,0,0,.6);
+    z-index:2;
+}
+.theme-modal-inner{
+    background-color:#fff;
+    border-radius:8px;
+    padding:20px;
+    position:absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left:50%;
+    width:95%;
+    max-width:500px;
+    max-height: 98vh;
+    overflow-y:auto;
+}
+.theme-modal-close{
+    border:0;
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: auto;
+    float: right;
+    background: #fff;
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+}
+.theme-modal-close img{
+    width:20px;
+}

@@ -1,0 +1,13 @@
+.footer{
+    text-align: center;
+    color:rgba(38, 38, 46, 0.5);
+    display: inline-block;
+    width:100%;
+    margin:28px 0;
+    font-size:0.8rem;
+}
+.footer p{
+    /* background: rgba(255,255,255,.5); */
+    color: #828282;
+    padding: 4px;
+}

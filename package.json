@@ -1,0 +1,40 @@
+{
+  "name": "learn-starter",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 1002",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.7.2",
+    "axios": "^0.25.0",
+    "bootstrap": "^5.1.3",
+    "connected-next-router": "^4.1.0",
+    "crypto-js": "^4.1.1",
+    "formik": "^2.2.9",
+    "hybrid-crypto-js": "^0.2.4",
+    "localforage": "^1.10.0",
+    "moment": "^2.29.1",
+    "next": "^12.0.10",
+    "next-on-netlify": "^3.0.1",
+    "next-redux-wrapper": "^7.0.5",
+    "node-forge": "^1.2.1",
+    "node-rsa": "^1.1.1",
+    "qrcode.react": "^1.0.1",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.1.2",
+    "react-dom": "^17.0.2",
+    "react-ga": "^3.3.0",
+    "react-redux": "^7.2.6",
+    "react-select": "^5.2.2",
+    "react-toast-notifications": "^2.5.1",
+    "redux": "^4.0.5",
+    "save": "^2.4.0",
+    "styled-components": "^5.2.1",
+    "universal-cookie": "^4.0.4",
+    "uuid": "^8.3.2",
+    "yup": "^0.32.11"
+  }
+}

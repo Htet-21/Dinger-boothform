@@ -1,0 +1,65 @@
+.headerContainer{
+    display: inline-block;
+    width: 100%;
+}
+.headerContainer img{
+    width:60px;
+}
+.headerContainer .icon{
+    width:auto !important;
+    height:18px;
+}
+.headerContainer h3{
+    font-size: 18px !important;
+}
+.lang_btn{
+    border:0;
+    background:0;
+    padding:0 11px 0 0;
+    position:relative;
+}
+.lang_btn img.my{
+    width:30px;
+}
+.lang_btn img.en{
+    width:26px;
+}
+.lang_btn .clicker{
+    width:9.5px;
+    position:absolute;
+    right:0;
+    top:11px;
+}
+.lang_btn_dropdown{
+    list-style: none;
+    position:absolute;
+    right: -3px;
+    top:27px;
+    z-index: 1;
+    background: #fff;
+    border: 1px solid #ededf0;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    padding: 0;
+}
+.lang_btn_dropdown li{
+    cursor: pointer;
+    padding: 5px 15px;
+    border-bottom: 1px solid #ededf0;
+    color:#000;
+}
+.lang_btn_dropdown li:last-child{
+    border-bottom:0;
+}
+.noHeight{
+    height:0;
+    transform-origin: left top;
+    transform: scaleY(0);
+    overflow: hidden;
+    transition: all .2s ease-in-out;
+}
+.hasHeight{
+    height:64px;
+    transform: scaleY(1);
+    transition: all .2s ease-in-out;
+}

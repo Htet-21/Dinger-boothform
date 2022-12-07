@@ -1,0 +1,26 @@
+image: docker:git
+services:
+  - docker:dind
+variables:
+  REPOSITORY_URL: 573534412638.dkr.ecr.ap-southeast-1.amazonaws.com
+  AWS_DEFAULT_REGION: ap-southeast-1
+  APP_NAME: dinger-rangoon-sales-academy
+
+stages:
+- dockerbuild
+- deploy
+
+release:
+  stage: dockerbuild
+  services:
+    - docker:dind
+  before_script:
+    - apk add --update --no-cache jq build-base python3-dev python3 libffi-dev libressl-dev bash git gettext curl && curl -O https://bootstrap.pypa.io/get-pip.py && python3 get-pip.py && pip install --upgrade awscli
+    - IMAGE_TAG="$(echo $CI_COMMIT_SHA | head -c 8)"
+    - $(aws ecr get-login --no-include-email --region "${AWS_DEFAULT_REGION}")
+
+  script:
+    - docker build -t $REPOSITORY_URL/$APP_NAME:$IMAGE_TAG .
+    - docker push $REPOSITORY_URL/$APP_NAME:$IMAGE_TAG
+
+

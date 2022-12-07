@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28" height="28" viewBox="0 0 28 28">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_854" data-name="Rectangle 854" width="28" height="28" transform="translate(736 305)" fill="#cccdce" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_24" data-name="Mask Group 24" transform="translate(-736 -305)" clip-path="url(#clip-path)">
+    <path id="credit-card-regular" d="M25.662,1.556H2.338A2.335,2.335,0,0,0,0,3.889V21a2.335,2.335,0,0,0,2.338,2.333H25.662A2.335,2.335,0,0,0,28,21V3.889a2.335,2.335,0,0,0-2.338-2.333ZM2.63,3.889H25.37a.293.293,0,0,1,.292.292V6.222H2.338V4.181A.293.293,0,0,1,2.63,3.889ZM25.37,21H2.63a.293.293,0,0,1-.292-.292V12.444H25.662v8.264A.293.293,0,0,1,25.37,21ZM9.333,16.139v1.944a.585.585,0,0,1-.583.583H5.25a.585.585,0,0,1-.583-.583V16.139a.585.585,0,0,1,.583-.583h3.5A.585.585,0,0,1,9.333,16.139Zm9.333,0v1.944a.585.585,0,0,1-.583.583H11.472a.585.585,0,0,1-.583-.583V16.139a.585.585,0,0,1,.583-.583h6.611A.585.585,0,0,1,18.667,16.139Z" transform="translate(736 306.556)" fill="#cccdce"/>
+  </g>
+</svg>

@@ -1,0 +1,671 @@
+/* payment form css start */
+
+/* font-embedded */
+@font-face {
+  font-family: "Helvetica Bold";
+  src: url("/fonts/Helvetica/Helvetica-Bold.ttf");
+}
+@font-face {
+  font-family: "Helvetica Normal";
+  src: url("/fonts/Helvetica/Helvetica.ttf");
+}
+@font-face {
+  font-family: "Proxima Nova Bold";
+  src: url("/fonts/Proxima/Proxima Nova Bold.ttf");
+}
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("/fonts/Proxima/Proxima Nova Regular.ttf");
+}
+@font-face {
+  font-family: "Pyidaungsu Bold";
+  src: url("/fonts/Pyidaungsu/Pyidaungsu-2.5_Bold.ttf");
+}
+@font-face {
+  font-family: "Pyidaungsu Regular";
+  src: url("/fonts/Pyidaungsu/Pyidaungsu-2.5_Regular.ttf");
+}
+
+.container#en,
+div#en {
+  font-family: "Proxima Nova";
+}
+h2#en,
+h3#en {
+  font-family: "Helvetica Bold";
+}
+.container#my,
+div#my {
+  font-family: "Pyidaungsu Regular";
+}
+h2#my,
+h3#my {
+  font-family: "Pyidaungsu Bold";
+}
+#my p, #my button, #my li, #my label, #my input, #my input::placeholder,#my textarea::placeholder, #my textarea {
+  font-family: "Pyidaungsu Regular";
+}
+#my h1, #my h2, #my h3, #my h4, #my h5 {
+  font-family: "Pyidaungsu Bold";
+}
+#en h1, #en h2, #en h3, #en h4, #en h5 {
+  font-family: "Helvetica Bold";
+}
+#en p, #en button, #en li, #en label, #en input {
+  font-family: "Proxima Nova";
+}
+.my{
+  font-family: "Pyidaungsu Regular" !important;
+}
+
+#logo {
+  width: 50px;
+  margin-top: 40px;
+  float: right;
+}
+body {
+  background-color: #f9f9f9 !important;
+  color: #26262e;
+}
+
+.hoh_bg{
+  background-image: url('../public/images/bg.jpg');
+  background-size: contain;
+  background-attachment: inherit;
+  background-position: center;
+  min-height: 100vh;
+}
+
+#dinger-h1 {
+  font-size: 20px;
+  margin-top: 40px;
+}
+
+#header {
+  width: 100%;
+  background-image: url(/header-bg-img.png);
+  height: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto 1000px;
+}
+
+#header-full {
+  width: 100%;
+  padding-top: 20px;
+  overflow: hidden;
+}
+
+#header-half {
+  width: 150px;
+  float: left;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+#lock-img {
+  width: 15px;
+  margin-right: 5px;
+  margin-top: -5px;
+}
+
+#table-div {
+  width: 600px;
+  display: block;
+  font-weight: 500;
+  text-align: center;
+  overflow: hidden;
+  margin: auto;
+}
+
+#table-row {
+  width: 100%;
+  display: block;
+  overflow: hidden;
+}
+
+#table-col-1 {
+  width: 20%;
+  display: block;
+  float: left;
+}
+
+#table-col-2 {
+  width: 40%;
+  display: block;
+  float: left;
+}
+#order-h2 {
+  font-size: 18px;
+  padding: 40px;
+  text-align: center;
+}
+
+#payform-div {
+  min-height: 65vh;
+}
+
+#footer {
+  width: 100%;
+  background-image: url(/header-bg-img.png);
+  height: 100px;
+  margin-top: 45px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto 1000px;
+}
+
+/* The container */
+
+#container {
+  display: block;
+  width: 18%;
+  padding: 10px;
+  margin: 1%;
+  float: left;
+  border-radius: 10px;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
+  position: relative;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+
+#container input {
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  cursor: pointer;
+  height: 100%;
+  /* font-family: "Proxima Nova" !important; */
+}
+
+#pay-logo {
+  margin: auto;
+  display: block;
+  width: 80%;
+  height: auto;
+}
+#choose-pay-div {
+  width: 100%;
+}
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  height: 100%;
+  width: 100%;
+  background-color: none;
+  border-radius: 10px;
+}
+
+/* On mouse-over, add a grey background color */
+#container:hover input ~ .checkmark {
+  background-color: none;
+}
+
+/* When the radio button is checked, add a blue background */
+#container input:checked ~ .checkmark {
+  background-color: none;
+  border: 3px solid green;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+#container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+#container .checkmark:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+#pay-with-div {
+  width: 100%;
+  margin-top: 30px;
+  overflow: hidden;
+  padding: 20px 0;
+}
+#pw-text {
+  width: 85px;
+  overflow: hidden;
+  float: left;
+  font-size: 18px;
+  font-weight: 500;
+}
+#p-choose-div {
+  width: 240px;
+  float: left;
+  overflow: hidden;
+}
+#p-choose-col {
+  width: 40%;
+  float: left;
+}
+#p-choose-col button {
+  width: 100%;
+  margin-top: 0;
+  background: none;
+  float: left;
+  border-radius: 10px;
+  border: 2px solid;
+  height: 35px;
+}
+#p-choose-col1 {
+  width: 20%;
+  text-align: center;
+  float: left;
+}
+#qr-text {
+  float: left;
+  margin: 2px 0;
+}
+#qr-div {
+  font-size: 15px;
+  font-weight: 500;
+  overflow: hidden;
+  width: 100%;
+}
+#qr-div img {
+  width: 200px;
+  margin: auto;
+  padding: 20px;
+  display: block;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+#p-choose-col button:focus {
+  width: 100%;
+  margin-top: 0;
+  background: none;
+  float: left;
+  outline: none;
+  border-radius: 10px;
+  border: 2px solid green !important;
+  height: 35px;
+}
+#co-div {
+  overflow: hidden;
+  width: 100%;
+  padding: 30px;
+}
+#co-div button {
+  display: block;
+  margin: auto;
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+  background: none;
+  border: 2px solid;
+  padding: 10px;
+}
+#divider-div {
+  overflow: hidden;
+  width: 100%;
+  height: 50px;
+}
+#error-div {
+  text-align: center;
+  color: red;
+  margin-top: 50px;
+}
+.merchant-logo-div {
+  width: 50%;
+  float: left;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+}
+.merchant-logo-div img {
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  text-align: left;
+}
+.form-header {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  padding: 5px 30px 5px 30px;
+  border-bottom: 1px solid #eeeeeeee;
+  justify-content: space-between;
+}
+
+#form-header {
+  width: 100%;
+  display: flex;
+  padding: 5px 30px 5px 30px;
+  border-bottom: 0.5px solid #e0e0e0;
+  opacity: 1;
+}
+.payment-method-div {
+  margin: 20px 30px;
+}
+.method-div {
+  margin: 10px 0;
+  padding: 10px 10px 10px 35px;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: flex;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  align-items: center;
+  height: 100px;
+  cursor: pointer;
+}
+.method-div img {
+  width: 28px;
+  height: 28px;
+  float: left;
+}
+.method-div p {
+  margin: 0 0 0 30px;
+  text-align: left;
+  font: normal normal medium 16px/25px;
+  letter-spacing: 0px;
+  color: #040c11;
+  opacity: 0.3;
+}
+.warning-text-div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.warning-text-div img {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px 0 0;
+}
+.warning-text-div p {
+  color: #c1c1c1;
+  font-size: 12px;
+  margin: 0 0 0 5px;
+}
+
+.price-div {
+  width: 50%;
+  /* float: right; */
+  /* text-align: end; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.price-div label {
+  display: block;
+  font: normal normal normal 16px/25px;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 0.5;
+  margin: 0;
+  width: 100%;
+  text-align: end;
+}
+.price-div legend {
+  font: normal normal medium 28px/42px;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin: 0;
+  text-align: end;
+}
+.form-field-div {
+  margin-bottom: 10px;
+}
+.form-field-div label {
+  font-size: 16px;
+}
+/* payment form css end */
+
+.item-list-main-div {
+  width: 35% !important;
+  position: relative;
+  margin: 24px auto;
+  padding: 26px 24px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 2px 3px #00000014;
+  border-radius: 15px;
+  opacity: 1;
+  z-index: -999;
+}
+.item-list-div {
+  width: 100%;
+  border-bottom: 1px solid #eeeeee;
+  padding-bottom: 24px;
+}
+.item-div {
+  display: flex;
+  justify-content: space-between;
+}
+.item-left-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-left-div p {
+  text-align: left;
+  font: 16px/25px Poppins;
+  letter-spacing: 0px;
+  color: #040c11;
+  opacity: 0.8;
+  margin: 0 0 4px 0;
+  padding: 0;
+}
+.item-left-div label {
+  text-align: left;
+  font: 14px/21px Poppins;
+  letter-spacing: 0px;
+  color: #040c11;
+  opacity: 0.5;
+}
+.item-right-div p {
+  text-align: right;
+  font: 16px/25px;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+.subtotal-tax-div {
+  padding: 24px 0;
+  border-bottom: 1px solid #eeeeee;
+}
+.subtotal-tax-div div {
+  display: flex;
+  justify-content: space-between;
+}
+.subtotal-tax-div label {
+  text-align: left;
+  font: 16px/25px;
+  letter-spacing: 0px;
+  color: #040c11;
+  opacity: 0.5;
+}
+.subtotal-tax-div p {
+  text-align: right;
+  font: 16px/25px Poppins-Regular;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+.item-total-div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+.item-total-div label {
+  text-align: left;
+  font: 16px/25px;
+  letter-spacing: 0px;
+  color: #040c11;
+  opacity: 0.5;
+}
+.item-total-div p {
+  text-align: right;
+  font: 16px/25px;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+#form-footer-p {
+  text-align: center;
+  letter-spacing: 0px;
+  color: #040c11;
+  opacity: 0.5;
+  font: 14px/21px;
+}
+/* responsive css */
+
+.form-group-error {
+  color: #ffffff;
+  font-size: 0.8rem;
+  position: absolute;
+  right: 0;
+  bottom: 2px;
+}
+.form-group input:read-only {
+  background: #f9f9fa;
+  opacity: 0.7;
+}
+
+/* theme checkbox start*/
+.theme-checkbox {
+  position: relative;
+  margin: 0;
+  width: 26px;
+  margin-right: 10px;
+}
+.theme-checkbox input[type="checkbox"] {
+  visibility: hidden;
+}
+.theme-checkbox .checkmark {
+  position: absolute;
+  border: 1px solid #c3c3c3;
+  margin-top: -6px;
+  left: 0;
+  top: 8px;
+  height: 20px;
+  width: 20px;
+  border-radius: 4px;
+}
+.theme-checkbox:hover input ~ .checkmark {
+  background-color: #ffd300;
+}
+.theme-checkbox input:checked ~ .checkmark {
+  background-color: #ffd300;
+}
+.theme-checkbox .checkmark:after {
+  content: "";
+  position: absolute;
+  border: 1px solid black;
+  display: none;
+}
+.theme-checkbox input:checked ~ .checkmark:after {
+  display: block;
+}
+.theme-checkbox .checkmark:after {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 8px;
+  background: black;
+  width: 2px;
+  height: 2px;
+  box-shadow: 2px 0 0 black, 4px 0 0 black, 4px -2px 0 black, 4px -4px 0 black,
+    4px -6px 0 black, 4px -8px 0 black;
+  transform: rotate(45deg);
+}
+/* theme checkbox end*/
+
+@media (max-width: 767.98px) {
+  #table-div {
+    width: 310px !important;
+  }
+  #form-div {
+    width: 90% !important;
+  }
+  .contact-div {
+    width: 90% !important;
+  }
+  .redirect-div {
+    width: 90% !important;
+  }
+}
+@media (max-width: 768px) {
+  #table-div {
+    width: 310px !important;
+  }
+  #form-div {
+    width: 80% !important;
+  }
+  .contact-div {
+    width: 80% !important;
+  }
+  .redirect-div {
+    width: 80% !important;
+  }
+  .item-list-main-div {
+    width: 80% !important;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  #form-div {
+    width: 80% !important;
+  }
+  .contact-div {
+    width: 81% !important;
+  }
+  .redirect-div {
+    width: 80% !important;
+  }
+  .item-list-main-div {
+    width: 80% !important;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1300px) {
+  #form-div {
+    width: 55% !important;
+  }
+  .contact-div {
+    width: 56% !important;
+  }
+  .redirect-div {
+    width: 55% !important;
+  }
+  .item-list-main-div {
+    width: 55% !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .hoh_bg{
+    background-position: top center;
+  }
+}
+
+
+/* responsive css */

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28" height="28" viewBox="0 0 28 28">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_854" data-name="Rectangle 854" width="28" height="28" transform="translate(736 305)" fill="#cccdce" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_23" data-name="Mask Group 23" transform="translate(-736 -305)" clip-path="url(#clip-path)">
+    <path id="university-solid" d="M28.933,7.467V8.4a.467.467,0,0,1-.467.467h-1.4v.7a.7.7,0,0,1-.7.7H3.5a.7.7,0,0,1-.7-.7v-.7H1.4A.467.467,0,0,1,.933,8.4V7.467a.467.467,0,0,1,.288-.431L14.755,1.9a.466.466,0,0,1,.357,0L28.645,7.035A.467.467,0,0,1,28.933,7.467ZM27.533,25.2H2.333a1.4,1.4,0,0,0-1.4,1.4v.933A.467.467,0,0,0,1.4,28H28.467a.467.467,0,0,0,.467-.467V26.6A1.4,1.4,0,0,0,27.533,25.2ZM5.6,11.2V22.4H3.5a.7.7,0,0,0-.7.7v1.167H27.067V23.1a.7.7,0,0,0-.7-.7h-2.1V11.2H20.533V22.4H16.8V11.2H13.067V22.4H9.333V11.2Z" transform="translate(735.067 304.067)" fill="#cccdce"/>
+  </g>
+</svg>

@@ -1,0 +1,7 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import './components/header.css';
+@import './components/footer.css';
+@import './common.css';
+@import './global.css';
+@import './payment-form.css';
+@import './components/theme-modal.css'

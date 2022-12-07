@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28" height="28" viewBox="0 0 28 28">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_854" data-name="Rectangle 854" width="28" height="28" transform="translate(736 305)" fill="#cccdce" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_22" data-name="Mask Group 22" transform="translate(-736 -305)" clip-path="url(#clip-path)">
+    <path id="wallet-solid" d="M25.222,7H4.375a.875.875,0,0,1,0-1.75h21a.875.875,0,0,0,.875-.875A2.625,2.625,0,0,0,23.625,1.75H3.5A3.5,3.5,0,0,0,0,5.25v17.5a3.5,3.5,0,0,0,3.5,3.5H25.222A2.707,2.707,0,0,0,28,23.625v-14A2.707,2.707,0,0,0,25.222,7ZM22.75,18.375a1.75,1.75,0,1,1,1.75-1.75A1.75,1.75,0,0,1,22.75,18.375Z" transform="translate(736 305)" fill="#cccdce"/>
+  </g>
+</svg>
