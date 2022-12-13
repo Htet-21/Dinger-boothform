@@ -12,6 +12,202 @@ body {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
       monospace;
   }
+  @media only screen and (min-width: 1500px) {
+
+   .hider {
+    display: none;
+   }
+
+   #social{
+    padding-top: 780px !important;
+    margin-right: -376px !important;
+    margin-left: 425px !important;
+  }
+
+  #face {
+    width: 30% !important;
+    margin-bottom: 0px !important;
+}
+
+  }
+
+
+@media (max-width: 1500px) and (min-width: 1200px) {
+
+.hider {
+  display: none;
+}
+
+.background {
+  width: 455px;
+}
+
+.inner-block {
+  width: 30% !important;
+}
+
+#social {
+  padding-top: 600px !important;
+  margin-right: -273px !important;
+  margin-left: 310px !important;
+}
+
+.shadow-block {
+  top: 10% !important;
+}
+
+#icon {
+  margin-left: 830px !important;
+}
+
+.icons {
+  margin-left: 1400px !important;
+}
+
+.infos h2 {
+  padding-left: 900px !important;
+  }
+
+#pos {
+  padding-left: 900px !important;
+  }
+
+  .infos p {
+  padding-left: 950px !important;
+  }
+
+  #logo {
+    margin-left: 860px !important;
+  }
+
+  #face {
+    margin-bottom: 50px !important;
+}
+  .infos1 {
+    margin-left: 50% !important;
+  }
+
+ .infos1 h2 {
+  font-size: 28px !important;
+ }
+
+ .infos1 p {
+  font-size: 16px !important;
+ }
+
+  }
+
+  @media (mAX-width: 1200px) and (min-width: 992px) {
+    .background {
+      width: 455px;
+    }
+
+    .hider {
+      display: none;
+    }
+
+    .shadow-block {
+      width: 75% !important;
+      top: 10% !important;
+      left: 25%;
+    }
+
+  .infos1 h2 {
+    font-size: 28px !important;
+   }
+
+   .infos1 p {
+    font-size: 14px !important;
+   }
+
+   #face {
+    margin-bottom: 60px !important;
+}
+
+#social {
+  padding-top: 580px !important;
+  width: 20% !important;
+  margin-right: -127px !important;
+  margin-left: 205px !important;
+}
+
+    .inner-block {
+      width: 30% !important;
+    }
+    
+    #icon {
+      margin-left: 36% !important;
+    }
+    
+    .icons {
+      margin-left: 58% !important;
+    }
+    
+    .infos h2 {
+      padding-left: 38% !important;
+      }
+    
+    #pos {
+      padding-left: 38% !important;
+      }
+    
+      .infos p {
+      padding-left: 40% !important;
+      }
+    
+      #logo {
+        margin-left: 38% !important;
+      }
+  }
+
+  @media (max-width: 992px) and (min-width: 768px) {
+    .background {
+      width: 455px;
+    }
+    .pc {
+      display: none;
+    }
+    .inner-block {
+      width: 40% !important;
+    }
+    
+    #icon {
+      margin-left: 36% !important;
+    }
+    
+    .icons {
+      margin-left: 58% !important;
+    }
+    
+    .infos h2 {
+      padding-left: 33% !important;
+      }
+    
+    #pos {
+      padding-left: 33% !important;
+      }
+    
+      .infos p {
+      padding-left: 37% !important;
+      }
+    
+      #logo {
+        margin-left: 33% !important;
+      }
+  }
+
+  .background-main {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right, #F5CB4C 50%, #ffffff 50%);
+}
+
+.png {
+  margin-top: 50px;
+  margin-bottom: 35%;
+  padding-left: 90px;
+  width: 5%;
+}
 
 .background {
     width: 100%;
@@ -31,6 +227,12 @@ body {
     margin-bottom: 500px;
 }
 
+#face {
+  width: 25%;
+  width: 25%;
+  margin-bottom: 130px;
+}
+
 .inner-block {
   background-color: #ffffff;
   padding-bottom: 60px;
@@ -39,6 +241,24 @@ body {
   border-radius: 5px;
   box-shadow: 10px 10px 42px rgb(0 0 0 / 25%);
   width: 30%;
+}
+
+.shadow-block {
+  background: rgb(255, 255, 255);
+  width: 50%;
+  height: auto;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  margin: -50px 0 0 -50px;
+  box-shadow: 10px 10px 42px rgb(0 0 0 / 25%);
+}
+
+#social{
+  padding-top: 750px;
+  width: 15%;
+  margin-right: -255px;
+  margin-left: 280px;
 }
 
 #icon {
@@ -51,6 +271,44 @@ body {
   width: auto;
   margin-left: 525px;
   margin-bottom: -35px;
+}
+
+#logo1 {
+  width: auto;
+  margin-bottom: -35px;
+}
+
+.infos1 {
+  width: 100%;
+  margin-top: -43%;
+  margin-left: 60%;
+}
+
+.infos1 a {
+  text-decoration: none;
+  color: black;
+}
+
+.infos a {
+  text-decoration: none;
+  color: black;
+}
+
+.infos1 h2 {
+  font-family: "poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 36px;
+}
+
+.infos1 p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 15px;
+  margin-left: 35px;
 }
 
 .infos {
@@ -89,6 +347,15 @@ line-height: 21px;
 padding-left: 540px;
 }
 
+#pos1 {
+  font-family: 'Poppins';
+font-style: italic;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+margin-left: 0px;
+}
+
 .icons {
   display: block;
   margin-top: -50px;
@@ -102,7 +369,10 @@ padding-left: 540px;
 }
 
 @media only screen and (max-width: 600px) {
-
+  .pc {
+    display: none;
+  }
+  
 .background {
   width: 455px;
 }
