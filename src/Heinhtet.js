@@ -29,14 +29,13 @@ const Heinhtet = () => {
                  <img id="logo1" src={mail} alt="mail" />
                  <p>heinhtet@dinger.asia</p>
                  <img id="logo1" src={linked} alt="linked" />
-                 <p><a href="https://www.linkedin.com/in/pyaethuta/" target="_blank"> Hein Htet &nbsp;&nbsp;<i class="fa-solid fa-link"></i></a></p>
+                 <p><a href="https://www.linkedin.com/in/heinhtet21/" target="_blank"> Hein Htet &nbsp;&nbsp;<i class="fa-solid fa-link"></i></a></p>
                  <img id="logo1" src={phone} alt="phone" />
                  <p>(+95) 9799827807</p>
                  <img id="logo1" src={home} alt="home" />
                  <p>No [647], Corner of 21st Street, 6th <br /> floor, China Town Hotel, Latha <br /> Township, Yangon.</p>
                  <img id="logo1" src={comma} alt="comma" />
-                 <p>I don't cook, I don't clean <br />
-But let me tell you, I got this ring</p>   <br />
+                 <p>Too good at error handling,<br />Too bad at handling my own mental issues.</p>   <br />
                  </div>
                  </div>
                  <div className="row">
@@ -57,16 +56,16 @@ But let me tell you, I got this ring</p>   <br />
                  <img id="logo" src={mail} alt="mail" />
                  <p>heinhtet@dinger.asia</p>
                  <img id="logo" src={linked} alt="linked" />
-                 <p><a href="https://www.linkedin.com/in/pyaethuta/" target="_blank"> Pyae Thuta &nbsp;&nbsp;<i class="fa-solid fa-link"></i></a></p>
+                 <p><a href="https://www.linkedin.com/in/heinhtet21/" target="_blank"> Hein Htet Soe Moe &nbsp;&nbsp;<i class="fa-solid fa-link"></i></a></p>
                  <img id="logo" src={phone} alt="phone" />
                  <p>(+95) 9799827807</p>
                  <img id="logo" src={home} alt="home" />
                  <p>No [647], Corner of 21st Street, 6th <br /> floor, China Town Hotel, Latha <br /> Township, Yangon.</p>
                  <img id="logo" src={comma} alt="comma" />
-                 <p>Lorem ipsum dolor sit amet <br /> consectetur.</p>    
+                 <p>Too good at error handling,<br />Too bad at handling my own mental <br /> issues.</p>  
                  </div>
                 <div className="inner-block">
-                 <img id="pf" src={htet} className="App-logo" alt="logo" />
+                 <img id="pf" src={heinhtet} className="App-logo" alt="logo" />
                 </div>
             </div>
             </div>

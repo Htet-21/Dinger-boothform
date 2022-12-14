@@ -57,13 +57,13 @@ const Htet = () => {
                  <img id="logo" src={mail} alt="mail" />
                  <p>htet@dinger.asia</p>
                  <img id="logo" src={linked} alt="linked" />
-                 <p>Htet Arkar Kyaw</p>
+                 <p><a href="https://www.linkedin.com/in/htet-arkar-kyaw/" target="_blank"> Htet Arkar Kyaw &nbsp;&nbsp;<i class="fa-solid fa-link"></i></a></p>
                  <img id="logo" src={phone} alt="phone" />
                  <p>(+95) 95067051</p>
                  <img id="logo" src={home} alt="home" />
                  <p>No [647], Corner of 21st Street, 6th <br /> floor, China Town Hotel, Latha <br /> Township, Yangon.</p>
                  <img id="logo" src={comma} alt="comma" />
-                 <p>Lorem ipsum dolor sit amet <br /> consectetur.</p>    
+                 <p>Too good at error handling,<br />Too bad at handling my own mental <br /> issues.</p>  
                  </div>
                 <div className="inner-block">
                  <img id="pf" src={htet} className="App-logo" alt="logo" />
