@@ -7,7 +7,7 @@ import linked from './linked.png';
 import phone from './phone.png';
 import home from './home.png';
 import comma from './comma.png';
-
+import kyawt from './kyawt.png';
 import icon from './icon.png';
 import linkedin from './linkedin.png';
 import telegram from './telegram.png';
@@ -21,7 +21,7 @@ const Kyawt = () => {
                 <div className="background-main">
                 <div className="shadow-block">
                 <img className="png" src={icon} alt="icon"/>
-                 <img id="face" src={heinhtet} className="App-logo" alt="logo" />
+                 <img id="face" src={kyawt} className="App-logo" alt="logo" />
                  <div className="infos1">
                  <h2>Hein Htet Soe Moe</h2>
                  <p id="pos1">Developer & Business Analyst</p>
@@ -64,7 +64,7 @@ const Kyawt = () => {
                  <p>Too good at error handling,<br />Too bad at handling my own mental <br /> issues.</p>  
                  </div>
                 <div className="inner-block">
-                 <img id="pf" src={heinhtet} className="App-logo" alt="logo" />
+                 <img id="pf" src={kyawt} className="App-logo" alt="logo" />
                 </div>
             </div>
             </div>
